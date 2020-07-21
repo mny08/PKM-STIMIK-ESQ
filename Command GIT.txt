@@ -1,0 +1,58 @@
+GIT CONFIGURATION
+git config --global user.name "FistName LastName"
+git config --global user.email "user@mail.com"
+git config --global core.editor "'editor text.exe' --multilnst --notabbar --nosession noPlugin
+git config --list
+---------------------------------------------------------------------------------------------------
+CREATE GIT REPOSITORY
+git init
+---------------------------------------------------------------------------------------------------
+Clone GIT Repository
+git clone http://example.git
+---------------------------------------------------------------------------------------------------
+GIT COMMANDS GIT REPOSITORY
+git init
+git add --all
+git commit -m "Initial Commit"
+git remote add origin https:example.git
+git push -u origin master
+---------------------------------------------------------------------------------------------------
+GIT COMMANDS FOR UPDATE
+git status
+git pull origin master
+git add .
+git commit -m "whats update"
+git push -u origin master
+--allow-unrelated-histories
+---------------------------------------------------------------------------------------------------
+REMOTE REPOSITORY
+git clone <url>
+git remote add <remote>
+git remote --v
+git fetch <remote> <branch>
+git push <remote> <branch>
+---------------------------------------------------------------------------------------------------
+GIT COMMANDS FOR BRANCH
+git branch <branch>
+git checkout <branch>
+git reset HEAD~1
+git reset HEAD <file>
+git reset --Hard
+git merge <branch>
+git brach -d <branch>
+---------------------------------------------------------------------------------------------------
+GIT TIPS
+git log
+gir log --oneline
+git log <log>
+git log <file>
+git log author='name'
+git diff <log>
+git diff <file>
+git diff <branch> <branch>
+git checkout <file> (before staged / added)
+git reset <file> (staged / added)
+git checkout <log> (commited->staged)
+git revert -n <log>
+.git
+.gitignore
